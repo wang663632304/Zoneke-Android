@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+     <ScrollView
+         	android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+         >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    	<TextView 
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:text="Zoneke Version 1.0"
+		/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:text="感兴趣地主题："
+		>
+		</TextView>
+		<CheckBox
+		    android:id="@+id/checkbox1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/catalog1"
+		/>
+		<CheckBox
+		    android:id="@+id/checkbox2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/catalog2"
+		/> 
+		<CheckBox
+		    android:id="@+id/checkbox3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/catalog3"
+		/>
+		<CheckBox
+		    android:id="@+id/checkbox4"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/catalog4"
+		/> 
+		<CheckBox
+		    android:id="@+id/checkbox5"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/catalog5"
+		/> 
+		<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	     <TextView 
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:text="消息范围设置："
+		/>
+         <TextView 
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:id="@+id/scopeTextView"
+	   		android:text="200米"
+		/>
+         </LinearLayout>
+         <RatingBar
+            style="@style/roomRatingBar"
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:minWidth="180dip" 
+            android:minHeight="60dip" 
+            android:numStars="4" 
+            android:rating="4" 
+            android:stepSize="1"/>
+         <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+		      <TextView 
+		        android:layout_width="wrap_content"
+		   		android:layout_height="wrap_content"
+		   		
+		   		android:text="当前经纬度："
+			  />
+		      <Button
+		          android:id="@+id/changeLocationButton"
+		          android:layout_width="wrap_content"
+		   		android:layout_height="wrap_content"
+		   		android:text="更新" />
+		 </LinearLayout>
+	      <TextView 
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:id="@+id/locationTv"
+	   		android:text="当前经纬度的值"
+		  />
+  		 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="30dip"
+	    android:orientation="horizontal" >
+         	<Button 
+         	    android:layout_width="wrap_content"
+	         	android:layout_height="wrap_content"
+	         	android:id="@+id/settingResetButton"
+	         	android:layout_marginLeft="30dip"
+	         	android:text="恢复默认"/>
+         	<Button 
+         	    android:layout_width="130dip"
+	         	android:layout_height="wrap_content"
+	         	android:id="@+id/settingOKButton"
+	         	android:text="完成"/>"
+         </LinearLayout>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

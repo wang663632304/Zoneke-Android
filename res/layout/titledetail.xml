@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/titleDetailMain"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+     >
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/tdAuthorName"
+	        android:layout_marginLeft="30dip"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:text="banking" />
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        
+	        android:layout_marginLeft="30dip"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:text="的主题" />
+	    
+	    
+	</LinearLayout>
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+     >
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/tdTitleContent"
+	        android:layout_marginLeft="15dip"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:text="原来显示的主题内容" />
+     </LinearLayout>
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+     >
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/tdCommenterName"
+	        android:layout_marginLeft="30dip"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:text="ZYH:" />
+        <EditText
+	        android:layout_width="220dip"
+	        android:layout_height="120dip"
+	        android:id="@+id/tdResponseCommentContent"
+	        android:layout_marginLeft="30dip"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	         />
+        
+     </LinearLayout>
+     	<Button
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/submitCommentButton"
+	        android:layout_gravity="right"
+	        android:layout_marginRight="30dip"
+	         android:text="发表"
+	        />
+     	<FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 	  <ScrollView
+         	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+         >
+         
+          <LinearLayout
+		    android:orientation="vertical"
+		    android:id="@+id/tdCommentLayout"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" >
+          </LinearLayout>    
+     </ScrollView>
+     
+ 	      <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_gravity="bottom"
+	    android:id="@+id/bottomItems"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    
+	    
+     >
+          <Button 
+              android:layout_width="fill_parent"
+	    	  android:layout_height="wrap_content"
+	    	  android:layout_weight="1"
+	    	  android:id="@+id/tdBottomButton1"
+	    	  android:text="发送"
+	    	/>
+           <Button 
+              android:layout_width="fill_parent"
+	    	  android:layout_height="wrap_content"
+	    	  android:layout_weight="1"
+	    	  android:id="@+id/tdBottomButton2"
+	    	  android:text="表情"
+	    	/>
+          
+     </LinearLayout>
+     </FrameLayout>
+</LinearLayout>

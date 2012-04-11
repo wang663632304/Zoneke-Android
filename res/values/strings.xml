@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello,Yinhang</string>
+    <string name="app_name">ZoneKe</string>
+    
+    <string name="catalog1">dota</string>
+    <string name="catalog2">吃饭</string>
+    <string name="catalog3">寻物</string>
+    <string name="catalog4">求助</string>
+    <string name="catalog5">运动</string>
+       
+
+</resources>

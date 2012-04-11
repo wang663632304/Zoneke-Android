@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+     >
+
+        <RatingBar
+            style="@style/roomRatingBar"
+            android:id="@+id/mainRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:minWidth="180dip" 
+            android:minHeight="60dip" 
+            android:numStars="4" 
+            android:rating="4" 
+            android:stepSize="1"
+            android:layout_marginLeft="50dip"
+            android:layout_marginTop="10dip"/>
+
+	    <Button
+	        android:id="@+id/newTitleButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="100dip"
+	        android:text="我来说" />
+	    
+	</LinearLayout>
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+     >
+       <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="80dip"
+	        android:text="寻物  --" />
+       <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:text="运动" />
+       <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:typeface="serif"
+	        android:layout_marginLeft="80dip"
+	        android:text="--> End " />
+     </LinearLayout>
+     <FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+     <ScrollView
+         	android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+         >
+         
+          <LinearLayout
+		    android:orientation="vertical"
+		    android:id="@+id/mainContentLayout"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+          </LinearLayout>    
+     </ScrollView>
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_gravity="bottom"
+	    android:id="@+id/bottomItems"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    
+	   >
+          <Button 
+              android:layout_width="fill_parent"
+	    	  android:layout_height="wrap_content"
+	    	  android:layout_weight="1"
+	    	  android:id="@+id/bIButton1"
+	    	  android:text="好友"
+	    	/>
+           <Button 
+              android:layout_width="fill_parent"
+	    	  android:layout_height="wrap_content"
+	    	  android:layout_weight="1"
+	    	  android:id="@+id/bIButton2"
+	    	  android:text="发现"
+	    	/>
+           <Button 
+              android:layout_width="fill_parent"
+	    	  android:layout_height="wrap_content"
+	    	  android:layout_weight="1"
+	    	  android:id="@+id/bIButton3"
+	    	  android:text="发送"
+	    	/>
+           <Button 
+              android:layout_width="fill_parent"
+	    	  android:layout_height="wrap_content"
+	    	  android:layout_weight="1"
+	    	  android:id="@+id/bIButton4"
+	    	  android:text="设置"
+	    	/>
+           <Button 
+              android:layout_width="fill_parent"
+	    	  android:layout_height="wrap_content"
+	    	  android:layout_weight="1"
+	    	  android:id="@+id/bIButton5"
+	    	  android:text="地图"
+	    	/>
+          
+     </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

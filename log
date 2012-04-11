@@ -1,0 +1,27 @@
+/*
+ This work(Android client for Zoneke)is constructed and finished
+ by banking absolutely.
+ Version: 1.0
+ If you find some bugs or has some questions about this work,please 
+ email me by banking17173@126.com.All visitors welcomed! 
+*/
+2011-11-8
+	Today is the first day for log.The progress is
+	1.Get json parse OK.
+	2.Make five fixed mainpages.Later, new titles can be easili added.
+	3.Add simple setting activity.It includes these: interested titles 
+	setting,scope setting.
+	
+2011-11-15
+    1.register activity added
+    2.database
+    
+ 2011-12-20
+    1.get right lat and lng
+    
+ 2011-12-27
+ 	1.internet check
+ 	2.remember check
+ 	
+2012-2-21
+    1.实现发数据以后自动更新~

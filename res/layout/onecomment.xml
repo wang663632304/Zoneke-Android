@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#734534"
+    android:orientation="vertical" >
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="15dip"
+   	    android:orientation="horizontal" >
+    
+        <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/ocPeopleName"
+    		android:text="ccy"
+    		android:textSize="15dip"
+    		android:paddingLeft="30dip">
+         </TextView>
+         
+         <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/ocTime"
+    		android:text="2011-11-4"
+    		android:textSize="15dip"
+    		android:paddingLeft="75dip">
+         </TextView>
+         
+	</LinearLayout>
+	<TextView 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/ocContent"
+    		android:text="some content.some content.some content.some content.some content"
+    		android:textSize="20dip"
+    		android:paddingLeft="25dip">
+    </TextView>
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_marginTop="80dip"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:orientation="vertical">
+	    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="300dip"
+	    android:layout_height="100dip"
+		>
+			<TextView
+				android:layout_width="80dip" 
+			    android:layout_height="40dip" 
+			    android:text="用户名:"
+			    android:paddingTop="12dip"
+			    android:paddingLeft="20dip"
+			
+			/>
+			<EditText
+				android:id="@+id/userNameEditText"
+				android:layout_width="120dip" 
+			    android:layout_height="50dip" 
+			    android:text=""
+			    android:paddingTop="12dip"
+			    android:paddingLeft="5dip"
+			/>
+		</LinearLayout>
+		<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="240dip"
+	    android:layout_height="50dip"
+	    android:layout_marginTop="13dip"
+		>
+			<TextView
+				android:layout_width="80dip" 
+			    android:layout_height="40dip" 
+			    android:text="密码:"
+			    android:paddingTop="12dip"
+			    android:paddingLeft="20dip"
+			
+			/>
+			<EditText
+				android:id="@+id/passWordEditText"
+				android:layout_width="120dip" 
+			    android:layout_height="50dip" 
+			    android:text=""
+			    android:paddingTop="12dip"
+			    android:paddingLeft="5dip"
+			
+			/>
+		</LinearLayout>
+		<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="200dip"
+	    android:layout_height="50dip"
+	    android:layout_marginTop="13dip"
+		>
+			<TextView
+				android:layout_width="80dip" 
+			    android:layout_height="60dip" 
+			    android:text="记住密码"
+			    android:paddingTop="12dip"
+			    android:paddingLeft="20dip"
+			
+			/>
+
+			<CheckBox
+			    android:id="@+id/isRemberPassword"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" />
+
+		</LinearLayout>
+		<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="250dip"
+	    android:layout_height="150dip"
+	    android:layout_marginTop="5dip"
+		>
+			<Button 
+				android:id="@+id/registerButton"
+				android:layout_width="80dip" 
+				android:layout_height="wrap_content" 
+				android:text="注册"
+				android:layout_marginTop="20dip"
+				android:layout_marginLeft="10dip"
+				/>
+			<Button 
+				android:id="@+id/loginButton"
+				android:layout_width="80dip" 
+				android:layout_height="wrap_content" 
+				android:text="登录"
+				android:layout_marginTop="20dip"
+				android:layout_marginLeft="50dip"
+				/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

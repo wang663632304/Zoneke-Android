@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#234456"
+    android:orientation="vertical" >
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="15px"
+   	    android:orientation="horizontal" >
+    
+        <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/stPeopleName"
+    		android:text="people"
+    		android:textSize="15dip"
+    		android:paddingLeft="5dip">
+         </TextView>
+         
+         <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/stTime"
+    		android:text="2011-11-3"
+    		android:textSize="15dip"
+    		android:paddingLeft="10dip">
+         </TextView>
+         <Button 
+            android:id="@+id/detailButton"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="详细"
+    		android:textSize="15dip"
+    		android:layout_marginLeft="30dip">
+         </Button>
+	</LinearLayout>
+	<TextView 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/stContent"
+    		android:text="some content.some content.some content.some content.some content"
+    		android:textSize="20dip"
+    		android:paddingLeft="25dip">
+    </TextView>
+</LinearLayout>
